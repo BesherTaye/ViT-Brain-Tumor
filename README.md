@@ -44,10 +44,18 @@ Sample labeled images:
 
 Before Patching:
 <div align="center">
-  <img src="./samples.png" alt="MRI Samples">
+  <img src="./before.png" alt="before patching">
 </div>
 
 After Patching:
+<div align="center">
+  <img src="./after.png" alt="after patching">
+</div>
+
+## Test Predictions
+
+We use the Adam optimizer with a learning rate of 0.0001 and weight decay of 0.0001. The model is trained with a batch size of 32 for 100 epochs. During training, a periodic evaluation on a test set is performed to track performance metrics including loss, accuracy, and confusion matrix. These metrics are closely monitored to assess the model’s performance and ensure accurate classification across the four classes: glioma, meningioma, notumor, and pituitary.
+
 <div align="center">
   <img src="./samples.png" alt="MRI Samples">
 </div>
