@@ -92,6 +92,11 @@ We use the Adam optimizer with a learning rate of 0.0001 and weight decay of 0.0
   <img src="./loss.png" alt="Loss" width="45%">
 </div>
 
+## ROC Curve
+
+<div align="center">
+  <img src="./ROC.png" alt="ROC Curve" width=500>
+</div>
 
 
 ## Confusion Matrix
