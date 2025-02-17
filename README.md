@@ -30,11 +30,28 @@ Found 5712 files belonging to 4 classes.
 Using 1142 files for validation.
 Found 1311 files belonging to 4 classes.
 ```
+```
+Sample Image Shape: (512, 512, 3)
+```
 Sample labeled images:
 
 <div align="center">
-  <img src="./ViT Architecture.png" alt="ViT Architecture">
+  <img src="./samples.png" alt="MRI Samples">
 </div>
+
+
+# ViT Model
+
+Before Patching:
+<div align="center">
+  <img src="./samples.png" alt="MRI Samples">
+</div>
+
+After Patching:
+<div align="center">
+  <img src="./samples.png" alt="MRI Samples">
+</div>
+
 
 
 
