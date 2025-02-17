@@ -1,4 +1,4 @@
-# Vision Transformers in Medical Imaging: Brain Tumor Classification
+# A Vision Transformer for Brain Tumor Detection & Classification
 
 In this project, we will investigate the effectiveness of Vision Transformers (ViT) in tackling challenging problem of medical imaging using the Brain Tumor dataset. While Convolutional Neural Networks (CNNs) have long been the standard for computer vision tasks, ViT offers a novel approach by leveraging self-attention mechanisms derived from the Transformer architecture, which was initially developed for natural language processing.
 
@@ -6,7 +6,7 @@ In this project, we will investigate the effectiveness of Vision Transformers (V
   <img src="./brain_tumor.jpg" alt="Brain Tumor Introduction" width=700>
 </div>
 
-# Vision Transformer (ViT)
+# Introduction to Vision Transformers (ViT's)
 
 A Vision Transformer (ViT) is an advanced deep learning model that adapts the Transformer architecture—originally developed for processing sequential data such as text—to analyze images. Instead of relying on traditional convolutional operations, ViT segments an image into uniform patches and converts them into numerical representations. These representations are then processed as sequential data through Transformer layers, allowing the model to effectively learn intricate patterns and relationships at both local and global levels within the image.
 
@@ -39,7 +39,22 @@ Sample Image Shape: (512, 512, 3)
 </div>
 
 
-# ViT Model
+# ViT Model Architecture
+
+lavsduifv asd
+
+sadiulfvs 
+
+aiusdvfi;
+
+asldbf;afi svd
+
+
+## Patching: Image as a Sequence
+
+Transformer models were developed with sequence data in mind, such as English sentences. However, an image is not a sequence. To apply Transformer architecture, we need to transform input image to a sequence. This process is called **patchification**.
+
+After the input image is patchified, we add so called positional embedings. Positional embedding allows the model to understand where each patch would be placed in the original image. We learn those embeddigns from the data, in a form of a simple, learnable matrix.
 
 <table style="width: 90%; table-layout: fixed;">
   <tr>
