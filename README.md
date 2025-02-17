@@ -19,8 +19,7 @@ In this project, we have developed a specialized Vision Transformer (ViT) model 
 
 # Data Exploration and Visualization
 
-The Brain Tumor dataset is a collection of brain MRI images from patients both with and without brain tumors. Each image poses a distinct challenge because of differences in size, resolution, and contrast. Our objective is to utilize the ViT architecture to create a strong classification model capable of accurately detecting brain tumors in these MRI scans. The dataset includes 4 different kinds of tumors: glioma, meningioma, notumor, pituitary.
-
+The Brain Tumor dataset is a collection of brain MRI images from patients both with and without brain tumors. Each image poses a distinct challenge because of differences in size, resolution, and contrast. Our objective is to utilize the ViT architecture to create a strong classification model capable of accurately detecting brain tumors in these MRI scans. 
 Our dataset consists of 7022 images, which are split as follows:
 
 ```python
@@ -57,7 +56,7 @@ After Patching:
 We use the Adam optimizer with a learning rate of 0.0001 and weight decay of 0.0001. The model is trained with a batch size of 32 for 100 epochs. During training, a periodic evaluation on a test set is performed to track performance metrics including loss, accuracy, and confusion matrix. These metrics are closely monitored to assess the model’s performance and ensure accurate classification across the four classes: glioma, meningioma, notumor, and pituitary.
 
 <div align="center">
-  <img src="./samples.png" alt="MRI Samples">
+  <img src="./predictions.png" alt="Predictions">
 </div>
 
 
