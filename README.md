@@ -41,14 +41,36 @@ Sample Image Shape: (512, 512, 3)
 
 # ViT Model Architecture
 
-lavsduifv asd
+| Layer (Type)               | Output Shape  | Param #     |
+|----------------------------|--------------|-------------|
+| patch_encoder (PatchEncoder) | ?            | 32,832      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| transformer_encoder (TransformerEncoder) | ? | 70,784      |
+| flatten (Flatten)         | (None, 16384) | 0           |
+| dense_31 (Dense)          | (None, 1024)  | 16,778,240  |
+| dense_32 (Dense)          | (None, 1024)  | 1,049,600   |
+| dense_33 (Dense)          | (None, 4)     | 4,100       |
 
-sadiulfvs 
-
-aiusdvfi;
-
-asldbf;afi svd
-
+```
+Total params: 56,779,598 (216.60 MB)
+Trainable params: 18,926,532 (72.20 MB)
+Non-trainable params: 0 (0.00 B)
+Optimizer params: 37,853,066 (144.40 MB)
+```
 
 ## Patching: Image as a Sequence
 
