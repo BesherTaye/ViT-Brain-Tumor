@@ -59,9 +59,21 @@ We use the Adam optimizer with a learning rate of 0.0001 and weight decay of 0.0
   <img src="./predictions.png" alt="Predictions">
 </div>
 
+## Accuracy and Loss Curves
+
+<div align="center">
+  <img src="./accuracy.png" alt="Accuracy">
+</div>
+
+<div align="center">
+  <img src="./loss.png" alt="Loss">
+</div>
 
 
+## Confusion Matrix
 
-
+<div align="center">
+  <img src="./confusion_matrix.png" alt="Confusion Matrix">
+</div>
 
 
