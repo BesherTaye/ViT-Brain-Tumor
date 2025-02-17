@@ -3,7 +3,7 @@
 In this project, we will investigate the effectiveness of Vision Transformers (ViT) in tackling challenging problem of medical imaging using the Brain Tumor dataset. While Convolutional Neural Networks (CNNs) have long been the standard for computer vision tasks, ViT offers a novel approach by leveraging self-attention mechanisms derived from the Transformer architecture, which was initially developed for natural language processing.
 
 <div align="center">
-  <img src="./brain_tumor.jpg" alt="Brain Tumor Introduction">
+  <img src="./brain_tumor.jpg" alt="Brain Tumor Introduction" width=700>
 </div>
 
 # Vision Transformer (ViT)
@@ -32,7 +32,7 @@ Found 1311 files belonging to 4 classes.
 ```
 Sample Image Shape: (512, 512, 3)
 ```
-Sample labeled images:
+## Sample labeled images:
 
 <div align="center">
   <img src="./samples.png" alt="MRI Samples">
@@ -41,39 +41,48 @@ Sample labeled images:
 
 # ViT Model
 
-Before Patching:
-<div align="center">
-  <img src="./before.png" alt="before patching">
-</div>
+<table style="width: 90%; table-layout: fixed;">
+  <tr>
+    <td align="center">
+      <img src="./before.png" alt="Before" width="478.5">
+    </td>
+    <td align="center">
+      <img src="./after.png" alt="After" width="478.5">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="background-color: #333; color: white; padding: 10px; border-radius: 5px;">
+      <strong>Before Patching</strong>
+    </td>
+    <td align="center" style="background-color: #333; color: white; padding: 10px; border-radius: 5px;">
+      <strong>After Patching</strong> 
+    </td>
+  </tr>
+</table>
 
-After Patching:
-<div align="center">
-  <img src="./after.png" alt="after patching">
-</div>
+
+
 
 ## Test Predictions
 
 We use the Adam optimizer with a learning rate of 0.0001 and weight decay of 0.0001. The model is trained with a batch size of 32 for 100 epochs. During training, a periodic evaluation on a test set is performed to track performance metrics including loss, accuracy, and confusion matrix. These metrics are closely monitored to assess the model’s performance and ensure accurate classification across the four classes: glioma, meningioma, notumor, and pituitary.
 
 <div align="center">
-  <img src="./predictions.png" alt="Predictions">
+  <img src="./predictions.png" alt="Predictions" width=600>
 </div>
 
 ## Accuracy and Loss Curves
-
 <div align="center">
-  <img src="./accuracy.png" alt="Accuracy">
+  <img src="./accuracy.png" alt="Accuracy" width="45%">
+  <img src="./loss.png" alt="Loss" width="45%">
 </div>
 
-<div align="center">
-  <img src="./loss.png" alt="Loss">
-</div>
 
 
 ## Confusion Matrix
 
 <div align="center">
-  <img src="./confusion_matrix.png" alt="Confusion Matrix">
+  <img src="./confusion_matrix.png" alt="Confusion Matrix" width=500>
 </div>
 
 
